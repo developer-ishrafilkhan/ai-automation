@@ -199,6 +199,17 @@ This platform comes out of the box with multi-tenant workspace architecture:
 
 ---
 
+## 👨‍💻 Author & Maintainer
+
+Maintained and developed by **Ishrafil Khan** at **[Larwell Technologies](https://larwell.com)**.
+
+- **Website**: [https://larwell.com](https://larwell.com)
+- **GitHub**: [@developer-ishrafilkhan](https://github.com/developer-ishrafilkhan)
+- **Email**: [mail.ishrafil@gmail.com](mailto:mail.ishrafil@gmail.com)
+
+---
+
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, distribute, and monetize this project for personal or commercial purposes.
+

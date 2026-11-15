@@ -400,7 +400,15 @@ export default function Welcome() {
                 <footer className="border-t">
                     <div className="text-muted-foreground mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-6 py-8 text-sm">
                         <span>
-                            © {new Date().getFullYear()} {name}
+                            © {new Date().getFullYear()} {name}. Built by{' '}
+                            <a
+                                href="https://larwell.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:text-foreground font-medium underline underline-offset-4"
+                            >
+                                Larwell
+                            </a>
                         </span>
                         <div className="flex gap-6">
                             <a href="#features" className="hover:text-foreground">
@@ -408,6 +416,9 @@ export default function Welcome() {
                             </a>
                             <a href="#open-source" className="hover:text-foreground">
                                 Open Source
+                            </a>
+                            <a href="https://larwell.com" target="_blank" rel="noopener noreferrer" className="hover:text-foreground">
+                                Larwell
                             </a>
                             <Link href={route('login')} className="hover:text-foreground">
                                 Log in

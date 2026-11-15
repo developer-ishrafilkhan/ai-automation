@@ -1,6 +1,6 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "developer-ishrafilkhan/ai-automation",
+    "name": "larwell/ai-automation",
     "type": "project",
     "description": "Open-Source AI Workflow & Media Generation Studio with visual canvas, multi-model routing, video/image generation, and MCP connectors.",
     "keywords": [
@@ -17,9 +17,24 @@
         "deepseek",
         "openai",
         "anthropic",
-        "gemini"
+        "gemini",
+        "larwell"
     ],
     "license": "MIT",
+    "homepage": "https://larwell.com",
+    "support": {
+        "issues": "https://github.com/developer-ishrafilkhan/ai-automation/issues",
+        "source": "https://github.com/developer-ishrafilkhan/ai-automation",
+        "website": "https://larwell.com"
+    },
+    "authors": [
+        {
+            "name": "Ishrafil Khan",
+            "email": "mail.ishrafil@gmail.com",
+            "homepage": "https://larwell.com",
+            "role": "Founder & Lead Developer"
+        }
+    ],
     "require": {
         "php": "^8.2",
         "inertiajs/inertia-laravel": "^2.0",
